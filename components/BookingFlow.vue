@@ -88,7 +88,7 @@
   <script lang="ts" setup>
   import { ref } from 'vue'
   
-  // Tab state
+
   const activeTab = ref<'oneWay' | 'returnTrip'>('oneWay')
   
   // Form inputs
@@ -97,10 +97,10 @@
   const firstTripDate = ref<string>('')
   const returnTripDate = ref<string>('')
   
-  // Function to change active tab
+
   function setActiveTab(tab: 'oneWay' | 'returnTrip') {
     activeTab.value = tab
-    if (tab === 'oneWay') returnTripDate.value = '' // Clear return trip date if on 'oneWay'
+    if (tab === 'oneWay') returnTripDate.value = ''
   }
   
   // Function to handle search action

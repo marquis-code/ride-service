@@ -48,27 +48,37 @@
 <script lang="ts" setup>
 const faqs = [
     {
-        id: 1, question: 'How can I get started?', answer: `To get started, simply reach out to our team through the contact form or give us a call. We'll be happy to discuss your project and provide you with all the information you need.`
+        id: 1, question: 'How do I make a reservation ?', answer: `To make a reservation, you can visit our website or contact our customer service team directly via the Contact Us page. Provide details such as the pickup/drop-off locations, dates, and vehicle preferences to ensure a smooth booking process.`
     },
     {
-        id: 2, question: 'What services do you offer?', answer: `We offer a wide range of services including software development, product design, and bespoke software solutions. Our team is experienced in working with startups, scale-ups, and enterprises across various industries.
+        id: 2, question: 'What types of vehicles do you offer for hire ?', answer: `We have a diverse fleet that includes compact cars, sedans, SUVs, vans, and even luxury vehicles. You can choose the vehicle that best suits your needs and preferences..
 `
     },
     {
         id: 3,
-        question: `How do you ensure quality?`,
-        answer: `We prioritize quality assurance through manual testing and test automation. This allows us to deliver powerful web and mobile applications that provide a seamless user experience.
+        question: `Can I modify or cancel my reservation?`,
+        answer: `Yes, you can modify or cancel your reservation online or by contacting our customer service team. Keep in mind that there may be fees associated with changes, and cancellation policies vary based on the timing of your request. Kindly check out our trip cancellation policy for more details..
 `
     },
     {
         id: 4,
-        question: `What is your design process?`,
-        answer: `Our design process focuses on creating user-friendly navigation, engaging UX/UI design, and improving conversions through relevant content and consistent branding. We support clients at any stage of product development, from discovery to UX/UI design.`
+        question: `Does hire outside Lagos attract extra price ?`,
+        answer: `Yes, hire outside Lagos attract extra fees`
     },
     {
         id: 5,
-        question: `Can you help with scalability?`,
-        answer: `Yes, we ensure that our designs are scalable and coherent across all teams involved. Whether you're a startup or an enterprise, we can help you build a digital product that grows with your business.`
+        question: `What do I do in case of an accident or breakdown ?`,
+        answer: `In case of an accident, contact local authorities immediately and then inform our emergency hotline. For breakdowns, our roadside assistance is available 24/7 to provide support. Details can be found in your hire agreement..`
+    },
+    {
+        id: 6,
+        question: `How do I extend my rental period ?`,
+        answer: `If you need to extend your rental, contact our customer service team as soon as possible. Extensions are subject to availability and additional charges.`
+    },
+    {
+        id: 7,
+        question: `What is included in the rental price ?`,
+        answer: `The rental price generally includes the cost of the vehicle, basic insurance coverage, and any applicable taxes and fees. Additional options such as GPS, child seats, or extended insurance coverage may incur extra charges`
     }
 ]
 

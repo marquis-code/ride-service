@@ -10,18 +10,19 @@ export default defineNuxtConfig({
     },
   },
   plugins: ["~/plugins/aos.client.ts"],
-  modules: ['@kevinmarrec/nuxt-pwa'],
+  css: ["/assets/css/main.css"],
+  modules: ['@kevinmarrec/nuxt-pwa', "@nuxtjs/tailwindcss"],
   pwa: {
     workbox: {
       enabled: true
     },
     meta: {
-      title: "Buildr",
+      title: "Nextride",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "specialize in software development, product design, and bespoke solutions to help businesses innovate and thrive in the digital age.",
+        "Streamline your vehicle hire experience with our effortless booking process.",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-lg rounded-lg p-4 sm:p-8 my-6 border-[0.5px] border-gray-100 lg:p-10 max-w-7xl mx-auto">
+    <div class="bg-white shadow-lg rounded-lg p-4 sm:p-8 my-6 border-[0.5px] border-gray-100 border lg:p-10 max-w-7xl mx-auto">
       <!-- Tabs for "One way" and "Return trip" -->
       <div class="flex items-center border-b border-gray-200">
         <button

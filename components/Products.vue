@@ -1,8 +1,8 @@
 <template>
-    <div class="relative flex min-h-screen flex-col bg-black pt-10">
+    <div class="relative flex min-h-screen max-w-7xl mx-auto flex-col pt-10">
       <div class="min-h-28">
         <div class="mx-auto py-4">
-          <h2 class="font-black text-4xl text-white uppercase pl-6">
+          <h2 class="font-black text-4xl uppercase pl-6">
             Most popular vehicle hire deals
           </h2>
   

@@ -1,5 +1,16 @@
 <template>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 min-h-screen p-20">
+  <main class="max-w-7xl mx-auto mt-32">
+    <div class="pl-5">
+      <h3 class="text-3xl font-semibold">How will Nextride help you?</h3>
+      <p class="text-lg">
+        We‘ve got you covered for all your personal and group transportation
+        needs.
+      </p>
+    </div>
+
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 min-h-screen p-20"
+    >
       <Card
         v-for="(service, index) in services"
         :key="index"
@@ -7,47 +18,47 @@
         :index="index + 1"
       />
     </div>
-  </template>
-  
-  <script lang="ts" setup>
-  import { ref } from 'vue'
-  
-  // Service data with YouTube video links
-  const services = ref([
-    {
-      title: 'Employee Shuttle Services',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_1',
-      imageUrl: 'image_url_1.jpg',
-    },
-    {
-      title: 'Car Rental Services',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_2',
-      imageUrl: 'image_url_2.jpg',
-    },
-    {
-      title: 'School Transportation',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_3',
-      imageUrl: 'image_url_3.jpg',
-    },
-    {
-      title: 'Conference and Conventions',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_4',
-      imageUrl: 'image_url_4.jpg',
-    },
-    {
-      title: 'Event Transportation',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_5',
-      imageUrl: 'image_url_5.jpg',
-    },
-    {
-      title: 'Airport Transportation',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_6',
-      imageUrl: 'image_url_6.jpg',
-    },
-  ])
-  </script>
-  
-  <style scoped>
-  /* Add any additional global styling here if needed */
-  </style>
-  
+  </main>
+</template>
+
+<script lang="ts" setup>
+import { ref } from "vue";
+
+// Service data with YouTube video links
+const services = ref([
+  {
+    title: "Employee Shuttle Services",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_1",
+    imageUrl: "image_url_1.jpg",
+  },
+  {
+    title: "Car Rental Services",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_2",
+    imageUrl: "image_url_2.jpg",
+  },
+  {
+    title: "School Transportation",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_3",
+    imageUrl: "image_url_3.jpg",
+  },
+  {
+    title: "Conference and Conventions",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_4",
+    imageUrl: "image_url_4.jpg",
+  },
+  {
+    title: "Event Transportation",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_5",
+    imageUrl: "image_url_5.jpg",
+  },
+  {
+    title: "Airport Transportation",
+    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_6",
+    imageUrl: "image_url_6.jpg",
+  },
+]);
+</script>
+
+<style scoped>
+/* Add any additional global styling here if needed */
+</style>

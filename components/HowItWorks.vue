@@ -1,5 +1,5 @@
 <template>
-    <section class="py-12 px-4 sm:py-16 sm:px-8 lg:py-20 lg:px-16 text-center">
+    <section class="py-12 max-w-7xl mx-auto sm:py-16 px-6 lg:px-0 lg:py-20 text-center">
       <!-- Title Section -->
       <h2 class="text-lg font-bold text-gray-900 uppercase tracking-wider">How It Works</h2>
       <p class="mt-2 text-2xl font-semibold text-gray-800">Hire with following 3 working steps</p>
@@ -7,7 +7,7 @@
       <!-- Steps Grid -->
       <div class="mt-12 grid gap-8 sm:grid-cols-3">
         <!-- Step 1: Choose Location -->
-        <div class="step-card border-[0.5px] border-gray-50">
+        <div class="step-card border-[0.5px] border-gray-100">
           <div class="icon-container">
             <!-- Icon Placeholder -->
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-10 h-10 text-blue-500">
@@ -19,7 +19,7 @@
         </div>
   
         <!-- Step 2: Pick-up Date -->
-        <div class="step-card border-[0.5px] border-gray-50">
+        <div class="step-card border-[0.5px] border-gray-100">
           <div class="icon-container">
             <!-- Icon Placeholder -->
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-10 h-10 text-blue-500">
@@ -31,7 +31,7 @@
         </div>
   
         <!-- Step 3: Book Vehicle -->
-        <div class="step-card border-[0.5px] border-gray-50">
+        <div class="step-card border-[0.5px] border-gray-100">
           <div class="icon-container">
             <!-- Icon Placeholder -->
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-10 h-10 text-blue-500">

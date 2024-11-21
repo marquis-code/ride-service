@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-7xl mx-auto mt-32">
+  <main class="max-w-6xl mx-auto mt-32">
     <div class="pl-5">
       <h3 class="text-3xl font-semibold">How will Nextride help you?</h3>
       <p class="text-lg">
@@ -9,7 +9,7 @@
     </div>
 
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 min-h-screen p-20"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 p-6 min-h-screen p-20"
     >
       <Card
         v-for="(service, index) in services"
@@ -22,6 +22,13 @@
 </template>
 
 <script lang="ts" setup>
+import services1 from '@/assets/img/services6.jpg'
+import services2 from '@/assets/img/services2.jpg'
+import services9 from '@/assets/img/services9.jpg'
+import services4 from '@/assets/img/services4.jpg'
+import services5 from '@/assets/img/services5.jpg'
+import service10 from '@/assets/img/service10.png'
+
 import { ref } from "vue";
 
 // Service data with YouTube video links
@@ -29,32 +36,32 @@ const services = ref([
   {
     title: "Employee Shuttle Services",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_1",
-    imageUrl: "image_url_1.jpg",
+    imageUrl: services1,
   },
   {
     title: "Car Rental Services",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_2",
-    imageUrl: "image_url_2.jpg",
+    imageUrl: services2,
   },
   {
     title: "School Transportation",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_3",
-    imageUrl: "image_url_3.jpg",
+    imageUrl: services9,
   },
   {
     title: "Conference and Conventions",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_4",
-    imageUrl: "image_url_4.jpg",
+    imageUrl: services4,
   },
   {
     title: "Event Transportation",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_5",
-    imageUrl: "image_url_5.jpg",
+    imageUrl: services5,
   },
   {
     title: "Airport Transportation",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_6",
-    imageUrl: "image_url_6.jpg",
+    imageUrl: service10,
   },
 ]);
 </script>

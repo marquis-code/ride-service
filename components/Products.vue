@@ -1,8 +1,8 @@
 <template>
-    <div class="relative flex min-h-screen max-w-7xl mx-auto flex-col pt-10">
+    <div class="relative flex min-h-screen max-w-6xl mx-auto flex-col pt-10">
       <div class="min-h-28">
         <div class="mx-auto py-4">
-          <h2 class="font-black text-4xl uppercase pl-6">
+          <h2 class="font-black text-2xl uppercase pl-4">
             Most popular vehicle hire deals
           </h2>
   
@@ -12,7 +12,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video1">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/648b6bdb802c1efb403e5be5_ZOOM2-transcode.mp4"
+                    src="/drive1.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -33,7 +33,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video2">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/640fe762f883d05b8f683c6d_HOKABODEGA-transcode.mp4"
+                    src="/drive2.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -57,7 +57,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video3">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/6363f65c00474db467bed81b_Screen%20Recording%202022-11-03%20at%2011018%20PM-transcode.mp4"
+                    src="/drive3.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -78,7 +78,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video4">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/63c084f55da78823643adbc3_ThePerfectPants-transcode.mp4"
+                    src="/drive4.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -101,7 +101,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video1">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/648b6bdb802c1efb403e5be5_ZOOM2-transcode.mp4"
+                    src="/drive5.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -122,7 +122,7 @@
               <div class="wrap-video">
                 <video class="object-cover h-96 w-full bg-black" loop ref="video2">
                   <source
-                    src="https://assets-global.website-files.com/62d57921074baa1ce7275405/640fe762f883d05b8f683c6d_HOKABODEGA-transcode.mp4"
+                     src="/drive6.mp4"
                     type="video/mp4"
                   />
                 </video>

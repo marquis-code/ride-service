@@ -32,7 +32,7 @@
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            <img class="h-8 w-auto" src="@/assets/img/logo.png" alt="">
           </a>
           <button @click="isOpen = false" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
@@ -45,10 +45,10 @@
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Product</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Company</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Become a Host</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
+<!--              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">C</a>-->
+<!--              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>-->
             </div>
             <div class="py-6">
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
@@ -76,8 +76,8 @@
             <h1 class="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Find, book, and hire vehicle in Easy steps.</h1>
             <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Streamline your vehicle hire experience with our effortless booking process.</p>
             <div class="mt-10 flex items-center gap-x-6">
-              <a href="#" class="rounded-full text-sm bg-indigo-600 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore our business solutions</a>
-              <a href="#" class="text-sm/6 font-semibold text-gray-900">Get a quote <span aria-hidden="true">→</span></a>
+<!--              <a href="#" class="rounded-full text-sm bg-indigo-600 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore our business solutions</a>-->
+              <a href="#" class="rounded-xl text-sm bg-indigo-600 px-4 py-3 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" >Get a quote <span aria-hidden="true">→</span></a>
             </div>
           </div>
         </div>

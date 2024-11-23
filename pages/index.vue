@@ -3,8 +3,8 @@
     <HeroSection />
     <Services />
     <Products />
-    <BookingFlow />
-    <HowItWorks />
+    <BookingFlow class="hidden lg:block" />
+    <HowItWorks  />
     <!-- <OurOffer /> -->
     <TestTestimonials />
     <!-- <UpdatedTestimonials /> -->

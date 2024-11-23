@@ -2,7 +2,7 @@
     <section class="py-12 max-w-7xl mx-auto sm:py-16 px-6 lg:px-0 lg:py-20 text-center">
       <!-- Title Section -->
       <h2 class="text-lg font-bold text-gray-900 uppercase tracking-wider">How It Works</h2>
-      <p class="mt-2 text-2xl font-semibold text-gray-800">Hire with following 3 working steps</p>
+      <p class="mt-2 text-lg lg:text-2xl font-semibold text-gray-800">Hire with following 3 working steps</p>
   
       <!-- Steps Grid -->
       <div class="mt-12 grid gap-8 sm:grid-cols-3">

@@ -3,8 +3,8 @@
   <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-base/7 font-semibold text-indigo-400">Get started</h2>
-      <p class="mt-2 text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Boost your productivity. Start using our app today.</p>
-      <p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-400">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
+      <p class="mt-2 text-balance text-3xl font-semibold tracking-tight text-white sm:text-5xl">Reliable employee transport for your company.</p>
+      <p class="mx-auto mt-6 max-w-xl text-sm text-pretty lg:text-lg/8 text-gray-400">Help employees get to work safely, comfortably, and on time. Here's an employee perk that actually matters every day.</p>
       <div class="mt-8 flex justify-center">
         <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
       </div>
@@ -116,7 +116,7 @@
           </svg>
         </a>
       </div>
-      <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+      <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; 2024 Nextride, Inc. All rights reserved.</p>
     </div>
   </div>
 </footer>

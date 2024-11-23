@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-white shadow-lg rounded-lg p-4 sm:p-8 my-6 border-[0.5px] border-gray-100 border lg:p-10 max-w-7xl mx-auto">
+    <div class="shadow-lg rounded-3xl my-6 border-[0.5px] border-gray-100 max-w-7xl mx-auto pt-3 bg-gray-25">
       <!-- Tabs for "One way" and "Return trip" -->
-      <div class="flex items-center border-b border-gray-200">
+      <div class="flex items-center border-gray-200 px-3">
         <button
           :class="[
-            'py-2 px-4 font-semibold text-sm sm:text-base',
-            activeTab === 'oneWay' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-400'
+            'py-2 px-4 font- text-xs sm:text-base',
+            activeTab === 'oneWay' ? 'text-gray-700 rounded-tl-lg bg-gray-50 border-gray-700' : 'text-gray-400 bg-white'
           ]"
           @click="setActiveTab('oneWay')"
         >
@@ -13,8 +13,8 @@
         </button>
         <button
           :class="[
-            'py-2 px-4 font-semibold text-sm sm:text-base',
-            activeTab === 'returnTrip' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-400'
+            'py-2 px-4 font- text-xs sm:text-base',
+            activeTab === 'returnTrip' ? 'text-gray-700 bg-gray-50 rounded-r-lg border-gray-700' : 'text-gray-400 bg-white'
           ]"
           @click="setActiveTab('returnTrip')"
         >
@@ -23,63 +23,79 @@
       </div>
   
       <!-- Booking Form -->
-      <div class="flex flex-col sm:flex-row items-center gap-4 mt-6">
+      <div class="flex flex-col sm:flex-row divide-x-[0.5px] divide-gray-100 items-center border-gray-25 border-t-[0.5px] shadow-sm gap-4  mt-6 border-[0.5px] rounded-b-3xl bg-white m-3 p-3">
         <div class="flex-1">
-          <label class="text-sm font-medium text-gray-700 block mb-1">Pick up location</label>
-          <div class="flex items-center gap-2 border rounded-lg px-3 py-2">
+          <label class="text-sm font-semibold text-gray-700 block mb-1">Pick up location</label>
+          <div class="flex items-center gap-2 py-2">
             <span class="text-green-500">📍</span>
-            <input
-              type="text"
-              placeholder="Enter address"
-              v-model="pickupLocation"
-              class="w-full outline-none text-gray-800 text-sm"
+<!--            <input-->
+<!--              type="text"-->
+<!--              placeholder="Enter address"-->
+<!--              v-model="pickupLocation"-->
+<!--              class="w-full outline-none text-gray-800 text-sm"-->
+<!--            />-->
+            <AutoComplete
+                :modelValue="payloadObj"
+                @update:modelValue="updateLocation"
             />
           </div>
         </div>
   
-        <div class="flex-1">
-          <label class="text-sm font-medium text-gray-700 block mb-1">Destination location</label>
-          <div class="flex items-center gap-2 border rounded-lg px-3 py-2">
+        <div class="flex-1 pl-4">
+          <label class="text-sm font-semibold text-gray-700 block mb-1">Destination location</label>
+          <div class="flex items-center gap-2 py-2">
             <span class="text-blue-500">📍</span>
-            <input
-              type="text"
-              placeholder="Enter address"
-              v-model="destinationLocation"
-              class="w-full outline-none text-gray-800 text-sm"
+<!--            <input-->
+<!--              type="text"-->
+<!--              placeholder="Enter address"-->
+<!--              v-model="destinationLocation"-->
+<!--              class="w-full outline-none text-gray-800 text-sm"-->
+<!--            />-->
+            <AutoComplete
+                :modelValue="payloadObj"
+                @update:modelValue="updateLocation"
             />
           </div>
         </div>
   
-        <div class="flex-1" v-if="activeTab === 'returnTrip' || activeTab === 'oneWay'">
-          <label class="text-sm font-medium text-gray-700 block mb-1">First trip</label>
-          <div class="flex items-center gap-2 border rounded-lg px-3 py-2">
+        <div class="flex-1 pl-4" v-if="activeTab === 'returnTrip' || activeTab === 'oneWay'">
+          <label class="text-sm font-semibold text-gray-700 block mb-1">First trip</label>
+          <div class="flex items-center gap-2 py-2">
             <span class="text-gray-500">📅</span>
             <input
               type="date"
               v-model="firstTripDate"
-              class="w-full outline-none text-gray-800 text-sm"
+              class="w-full outline-none border-none text-gray-800 text-sm"
             />
           </div>
         </div>
   
-        <div class="flex-1" v-if="activeTab === 'returnTrip'">
+        <div class="flex-1 pl-3" v-if="activeTab === 'returnTrip'">
           <label class="text-sm font-medium text-gray-700 block mb-1">Return trip</label>
-          <div class="flex items-center gap-2 border rounded-lg px-3 py-2">
+          <div class="flex items-center gap-2 py-2">
             <span class="text-gray-500">📅</span>
             <input
               type="date"
               v-model="returnTripDate"
-              class="w-full outline-none text-gray-800 text-sm"
+              class="w-full outline-none border-none text-gray-800 text-sm"
             />
           </div>
         </div>
   
         <!-- Search Button -->
-        <button
-          @click="searchTrips"
-          class="flex items-center justify-center bg-black text-white w-12 h-12 rounded-full hover:bg-gray-800 transition duration-200"
-        >
-          🔍
+<!--        <button-->
+<!--         -->
+<!--          class="flex items-center justify-center bg-black text-white w-12 h-12 rounded-full hover:bg-gray-800 transition duration-200"-->
+<!--        >-->
+<!--         -->
+<!--        </button>-->
+        <button @click="searchTrips"
+                class="bg-black text-white rounded-lg p-2 ml-4 flex justify-center items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
         </button>
       </div>
     </div>
@@ -87,7 +103,18 @@
   
   <script lang="ts" setup>
   import { ref } from 'vue'
-  
+
+  const payloadObj = ref({
+    address: '',
+    latitude: 0,
+    longitude: 0,
+  });
+
+  const updateLocation = (location: { address: string; latitude: any; longitude: any}) => {
+    payloadObj.value.address = location.address;
+    payloadObj.value.latitude = location.latitude;
+    payloadObj.value.longitude = location.longitude;
+  };
 
   const activeTab = ref<'oneWay' | 'returnTrip'>('oneWay')
   

@@ -13,7 +13,7 @@
       <img class="h-9" src="@/assets/img/logo.png" alt="Company name">
       <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div>
+          <!-- <div>
             <h3 class="text-sm/6 font-semibold text-white">Solutions</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
@@ -32,8 +32,8 @@
                 <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Insights</a>
               </li>
             </ul>
-          </div>
-          <div class="mt-10 md:mt-0">
+          </div> -->
+          <!-- <div class="mt-10 md:mt-0">
             <h3 class="text-sm/6 font-semibold text-white">Support</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
@@ -46,24 +46,24 @@
                 <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Guides</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
             <h3 class="text-sm/6 font-semibold text-white">Company</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">About</a>
+                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">About Us</a>
               </li>
               <li>
-                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Blog</a>
+                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Contact Us</a>
               </li>
               <li>
-                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Jobs</a>
+                <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Become a partner</a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Press</a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="mt-10 md:mt-0">

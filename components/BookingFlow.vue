@@ -1,5 +1,7 @@
 <template>
-    <div class="shadow-lg rounded-3xl my-6 border-[0.5px] border-gray-100 max-w-7xl mx-auto pt-3 bg-gray-25">
+    <main class="max-w-6xl mx-auto pt-16">
+      <p class="mt-2 text-xl font-medium text-gray-900 font-semibold text-center">Book a ride with NextRide</p>
+    <div class="shadow-lg rounded-3xl my-6 border-[0.5px] border-gray-100 pt-3 bg-gray-25">
       <!-- Tabs for "One way" and "Return trip" -->
       <div class="flex items-center border-gray-200 px-3">
         <button
@@ -99,6 +101,7 @@
         </button>
       </div>
     </div>
+    </main>
   </template>
   
   <script lang="ts" setup>

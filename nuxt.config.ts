@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: ["~/plugins/aos.client.ts"],
+  plugins: ["~/plugins/aos.client.ts", "~/plugins/cursor-fx.ts"],
   css: ["/assets/css/main.css"],
   modules: ['@kevinmarrec/nuxt-pwa', "@nuxtjs/tailwindcss"],
   pwa: {

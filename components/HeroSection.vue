@@ -18,7 +18,7 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm/6 font-semibold text-white">Product</a>
+          <NuxtLink to="/business" class="text-sm/6 font-semibold text-white">Business</NuxtLink>
           <a href="#" class="text-sm/6 font-semibold text-white">Features</a>
           <a href="#" class="text-sm/6 font-semibold text-white">Marketplace</a>
           <a href="#" class="text-sm/6 font-semibold text-white">Company</a>
@@ -66,6 +66,7 @@
           </div>
         </div>
       </div>
+
 
       <!-- Bottom Gradient Overlay -->
       <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">

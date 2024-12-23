@@ -1,8 +1,10 @@
 <template>
   <main>
+    <CursorWrapper>
     <NuxtLayout>
       <NuxtPage  />
     </NuxtLayout>
+  </CursorWrapper>
   </main>
 </template>
 

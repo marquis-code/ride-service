@@ -1,10 +1,10 @@
 <template>
     <main class="grid p-6 lg:p-0 lg:grid-cols-2 gap-10 max-w-5xl mx-auto">
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
           src="@/assets/img/business-ride.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -39,11 +39,11 @@
           </p>
         </div>
       </div>
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
            src="@/assets/img/services5.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -79,11 +79,11 @@
           </p>
         </div>
       </div>
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
            src="@/assets/img/weight1.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -119,11 +119,11 @@
         </div>
       </div>
   
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -159,13 +159,11 @@
         </div>
       </div>
 
-
-
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -201,14 +199,11 @@
         </div>
       </div>
 
-
-
-
-      <div class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
+      <div data-aos="fade-up" class="relative w-full overflow-hidden rounded-2xl shadow-lg group">
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="Shuttlers for Business"
+          alt="NextRide for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     

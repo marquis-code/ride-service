@@ -9,7 +9,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: ["~/plugins/aos.client.ts", "~/plugins/cursor-fx.ts"],
+  vue: {
+    compilerOptions: {
+      isCustomElement: tag => tag === 'cursor-fx'
+    }
+  },
+  plugins: ["~/plugins/aos.client.ts"],
   css: ["/assets/css/main.css"],
   modules: ['@kevinmarrec/nuxt-pwa', "@nuxtjs/tailwindcss"],
   pwa: {

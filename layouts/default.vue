@@ -1,7 +1,8 @@
 <template>
   <div>
+   <main>
     <NuxtPage />
     <CoreFooter />
-    <cursor-fx />
+   </main>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div @click="router.push('/signup')" class="relative cursor-pointer w-full h-96 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-500">
+    <div @click="router.push('/signup')" data-aos="flip-left" class="relative cursor-pointer w-full h-96 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-500">
       <!-- Background Image -->
       <img :src="service.imageUrl" alt="Service Image" class="w-full h-full object-cover" />
   

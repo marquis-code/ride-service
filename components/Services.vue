@@ -1,8 +1,8 @@
 <template>
   <main class="max-w-6xl mx-auto mt-32">
     <div class="pl-5">
-      <h3 class="text-3xl font-semibold">How will Nextride help you?</h3>
-      <p class="text-lg">
+      <h3 data-aos="flip-left" class="text-3xl font-semibold">How will Nextride help you?</h3>
+      <p data-aos="flip-left" class="text-lg">
         We‘ve got you covered for all your personal and group transportation
         needs.
       </p>
@@ -34,7 +34,7 @@ import { ref } from "vue";
 // Service data with YouTube video links
 const services = ref([
   {
-    title: "Employee Shuttle Services",
+    title: "Employee Transport Services",
     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID_1",
     imageUrl: services1,
   },

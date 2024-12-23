@@ -4,7 +4,7 @@
       <!-- Background Image -->
       <img
         src="@/assets/img/business-ride.jpg"
-        alt="Shuttlers for Business"
+        alt="NextRide for Business"
         class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
       />
   
@@ -43,7 +43,7 @@
       <!-- Background Image -->
       <img
          src="@/assets/img/services5.jpg"
-        alt="Shuttlers for Business"
+        alt="NextRide for Business"
         class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
       />
   
@@ -83,7 +83,7 @@
       <!-- Background Image -->
       <img
          src="@/assets/img/weight1.jpg"
-        alt="Shuttlers for Business"
+        alt="NextRide for Business"
         class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
       />
   
@@ -123,7 +123,7 @@
       <!-- Background Image -->
       <img
          src="@/assets/img/services3.jpg"
-        alt="Shuttlers for Business"
+        alt="NextRide for Business"
         class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
       />
   

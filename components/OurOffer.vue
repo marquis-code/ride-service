@@ -22,7 +22,7 @@ interface Service {
 
 const services = ref<Service[]>([
   {
-    title: 'Employee Shuttle Services',
+    title: 'Employee Transport Services',
     imageUrl: servicesImage
   },
   {

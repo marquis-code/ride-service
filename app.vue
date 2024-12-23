@@ -2,7 +2,6 @@
   <main>
     <NuxtLayout>
       <NuxtPage  />
-      <cursor-fx />
     </NuxtLayout>
   </main>
 </template>

@@ -98,5 +98,13 @@
     <TestimonialsScroll />
     <LogoClouds />
     <SocialConnect />
+    <Waitlist />
   </main>
 </template>
+
+<script lang="ts" setup>
+  definePageMeta({
+    title: 'Shuttlers',
+    description: 'Experience a simpler, better way to commute.',
+  });
+  </script>

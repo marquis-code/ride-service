@@ -1,6 +1,6 @@
 <template>
-    <main class="max-w-6xl mx-auto pt-16">
-      <p data-aos="fade-up" class="mt-2 text-xl font-medium text-gray-900 font-semibold text-center">Book a ride with NextRide</p>
+    <main class="max-w-6xl mx-auto -mt-20">
+      <!-- <p data-aos="fade-up" class="mt-2 text-xl font-medium text-gray-900 font-semibold text-center">Book a ride with Shuttlers</p> -->
     <div data-aos="fade-up" class="shadow-lg rounded-3xl my-6 border-[0.5px] border-gray-100 pt-3 bg-gray-25">
       <!-- Tabs for "One way" and "Return trip" -->
       <div class="flex items-center border-gray-200 px-3">
@@ -29,7 +29,9 @@
         <div class="flex-1">
           <label class="text-sm font-semibold text-gray-700 block mb-1">Pick up location</label>
           <div class="flex items-center gap-2 py-2">
-            <span class="text-green-500">📍</span>
+            <span class="text-green-500">
+              <img src="@/assets/icons/pickup-circle.svg" />
+            </span>
 <!--            <input-->
 <!--              type="text"-->
 <!--              placeholder="Enter address"-->
@@ -46,7 +48,9 @@
         <div class="flex-1 pl-4">
           <label class="text-sm font-semibold text-gray-700 block mb-1">Destination location</label>
           <div class="flex items-center gap-2 py-2">
-            <span class="text-blue-500">📍</span>
+            <span class="text-blue-500">
+              <img src="@/assets/icons/dropoff-circle.svg" />
+            </span>
 <!--            <input-->
 <!--              type="text"-->
 <!--              placeholder="Enter address"-->

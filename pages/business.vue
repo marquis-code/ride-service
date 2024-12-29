@@ -109,11 +109,11 @@
   <!-- Content -->
   <div  data-aos="fade-up" class="relative z-10 text-center px-4">
     <h1 data-aos="fade-up" class="text-white text-5xl font-semibold mt-20 max-w-2xl mx-auto mb-10">
-      Move Together, Effortlessly: Choose Nextride
+      Move Together, Effortlessly: Choose Shuttlers
     </h1>
 
     <p data-aos="fade-up" class="text-center max-w-2xl mx-auto  text-xl my-10 text-white/90">
-      At Nextride, we believe every group is unique, and their transportation needs deserve the same. That‘s why we offer
+      At Shuttlers, we believe every group is unique, and their transportation needs deserve the same. That‘s why we offer
       best-in-class services meticulously crafted to accommodate diverse requirements and exceed expectations.
     </p>
   </div>

@@ -3,7 +3,7 @@
       <div class="pl-5">
         <h3 class="text-3xl font-semibold">GROUND TRANSPORTATION SOLUTIONS</h3>
         <p class="text-lg">
-            Our transportation services expand far and wide for any need. Whether you‘re a planner, need support getting to school or work, or transporting to an appointment, Nextride has you covered.
+            Our transportation services expand far and wide for any need. Whether you‘re a planner, need support getting to school or work, or transporting to an appointment, Shuttlers has you covered.
         </p>
       </div>
   

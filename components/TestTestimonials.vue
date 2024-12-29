@@ -41,19 +41,19 @@
       image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
     },
     {
-      text: "I had a great time riding with Nextride, The driver arrived on time and he was thoroughly professional throughout the journey. Thank you. Looking forward to using Nextride again :)",
+      text: "I had a great time riding with Shuttlers, The driver arrived on time and he was thoroughly professional throughout the journey. Thank you. Looking forward to using Shuttlers again :)",
       name: "Jamiu",
       position: "Manager at TechWorld",
       image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
     },
     {
-      text: "I Had a seamless ride with Nextride, even though I had to delay the driver a bit he patiently waited for me and he was very polite and friendly, the car was clean and comfortable which made my trip awesome.",
+      text: "I Had a seamless ride with Shuttlers, even though I had to delay the driver a bit he patiently waited for me and he was very polite and friendly, the car was clean and comfortable which made my trip awesome.",
       name: "Nura",
       position: "Designer at CreativeStudio",
       image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
     },
     {
-      text: "Nextride provided a smooth journey. Despite a slight delay on my end, the driver patiently waited, displaying politeness and friendliness. The clean and comfortable car added to the overall awesomeness of my trip.",
+      text: "Shuttlers provided a smooth journey. Despite a slight delay on my end, the driver patiently waited, displaying politeness and friendliness. The clean and comfortable car added to the overall awesomeness of my trip.",
       name: "Doyin",
       position: "Designer at CreativeStudio",
       image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"

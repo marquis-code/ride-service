@@ -4,7 +4,7 @@
         <!-- Background Image -->
         <img
           src="@/assets/img/business-ride.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -43,7 +43,7 @@
         <!-- Background Image -->
         <img
            src="@/assets/img/services5.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -83,7 +83,7 @@
         <!-- Background Image -->
         <img
            src="@/assets/img/weight1.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -112,7 +112,7 @@
     
         <!-- Card Content (Visible initially) -->
         <div class="absolute bottom-0 left-0 w-full bg-white p-4 py-6 rounded-b-2xl group-hover:opacity-0 transition-opacity duration-300">
-          <h3 class="text-lg font-semibold text-gray-900 text-start">Nextride for schools</h3>
+          <h3 class="text-lg font-semibold text-gray-900 text-start">Shuttlers for schools</h3>
           <p class="text-sm text-gray-500 text-start">
             Help employees get to work safely, comfortably, and on time. Here's an employee pe...
           </p>
@@ -123,7 +123,7 @@
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -141,7 +141,7 @@
             <h3 class="text-lg font-semibold text-start">Choice of Vehicle</h3>
           </div>
           <p class="text-sm leading-6 text-start">
-            At Nextride, we value your choices. You have the freedom to select any vehicle that suits your preferences.
+            At Shuttlers, we value your choices. You have the freedom to select any vehicle that suits your preferences.
           </p>
           <div class="flex justify-start items-start">
             <button class="mt-4 px-4 py-3 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100">
@@ -154,7 +154,7 @@
         <div class="absolute bottom-0 left-0 w-full bg-white p-4 py-6 rounded-b-2xl group-hover:opacity-0 transition-opacity duration-300">
           <h3 class="text-lg font-semibold text-gray-900 text-start">Choice of Vehicle</h3>
           <p class="text-sm text-gray-500 text-start">
-            At Nextride, we value your choices. You have the freedom to select any vehicle that suits your preferences.
+            At Shuttlers, we value your choices. You have the freedom to select any vehicle that suits your preferences.
           </p>
         </div>
       </div>
@@ -163,7 +163,7 @@
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -203,7 +203,7 @@
         <!-- Background Image -->
         <img
            src="@/assets/img/services3.jpg"
-          alt="NextRide for Business"
+          alt="Shuttlers for Business"
           class="w-full h-96 object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
         />
     
@@ -221,7 +221,7 @@
             <h3 class="text-lg font-semibold text-start">Safety</h3>
           </div>
           <p class="text-sm leading-6 text-start">
-            At Nextride, one of our top priorities is your safety. To ensure your peace of mind during your ride, we provide a police escort to watch over you.
+            At Shuttlers, one of our top priorities is your safety. To ensure your peace of mind during your ride, we provide a police escort to watch over you.
           </p>
           <div class="flex justify-start items-start">
             <button class="mt-4 px-4 py-3 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100">
@@ -234,7 +234,7 @@
         <div class="absolute bottom-0 left-0 w-full bg-white p-4 py-6 rounded-b-2xl group-hover:opacity-0 transition-opacity duration-300">
           <h3 class="text-lg font-semibold text-gray-900 text-start">Safety</h3>
           <p class="text-sm text-gray-500 text-start">
-            At Nextride, one of our top priorities is your safety. To ensure your peace of mind during your ride, we provide a police escort to watch over you.
+            At Shuttlers, one of our top priorities is your safety. To ensure your peace of mind during your ride, we provide a police escort to watch over you.
           </p>
         </div>
       </div>

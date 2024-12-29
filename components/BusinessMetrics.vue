@@ -5,7 +5,7 @@
       </div>
       
       <h1 data-aos="fade-up" class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 -mt-2">
-        NextRide Business performance
+        Shuttlers Business performance
       </h1>
       
       <p data-aos="fade-up" class="text-gray-600 max-w-3xl mx-auto mb-16">

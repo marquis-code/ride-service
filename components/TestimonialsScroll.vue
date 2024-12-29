@@ -5,15 +5,15 @@
         <span class="text-green-500 font-medium">Testimonials</span>
       </div>
       
-      <h1 data-aos="flip-left" class="text-4xl md:text-5xl font-medium text-gray-900 mb-4 -mt-2">
+      <h1 data-aos="fade-up" class="text-4xl font-medium text-gray-900 mb-4 -mt-2">
         Don’t just take our word for it
       </h1>
       
-      <p data-aos="flip-left" class="text-gray-600  mb-16">
+      <p data-aos="fade-up" class="text-gray-600  mb-16">
         Hear from some of our amazing customers who are riding safely.
       </p>
      </section>
-      <div data-aos="flip-left" class="relative">
+      <div data-aos="fade-up" class="relative">
         <!-- First row - Left to Right -->
         <div 
           class="flex animate-scroll-left"
@@ -28,7 +28,7 @@
           >
             <div class="bg-white p-6 rounded-2xl bg-white shadow-sm border-[0.5px] border-gray-50 w-[400px] h-[250px] flex flex-col justify-between">
               <div class="flex-1">
-                <p class="text-gray-800 text-lg font-normal leading-relaxed line-clamp-3">
+                <p class="text-gray-800 text- font-normal leading-relaxed line-clamp-3">
                     <img src="@/assets/icons/quote.svg" class="mb-2" />
                   {{ testimonial.content }}
                 </p>
@@ -40,8 +40,8 @@
                   class="w-12 h-12 rounded-full object-cover flex-shrink-0"
                 />
                 <div class="ml-3 flex-shrink-0">
-                  <p class="text-gray-900 font-medium">{{ testimonial.name }}</p>
-                  <p class="text-gray-500 text-sm">{{ testimonial.role }}</p>
+                  <p class="text-gray-900 text-sm font-medium">{{ testimonial.name }}</p>
+                  <p class="text-gray-500 text-xs">{{ testimonial.role }}</p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@
           >
             <div class="bg-white p-6 rounded-2xl bg-white shadow-sm border-[0.5px] border-gray-50 w-[400px] h-[250px] flex flex-col justify-between">
               <div class="flex-1">
-                <p class="text-gray-800 text-lg font-normal leading-relaxed line-clamp-3">
+                <p class="text-gray-800 text- font-normal leading-relaxed line-clamp-3">
                     <img src="@/assets/icons/quote.svg" class="mb-2" />
                   {{ testimonial.content }}
                 </p>
@@ -74,8 +74,8 @@
                   class="w-12 h-12 rounded-full object-cover flex-shrink-0"
                 />
                 <div class="ml-3 flex-shrink-0">
-                  <p class="text-gray-900 font-medium">{{ testimonial.name }}</p>
-                  <p class="text-gray-500 text-sm">{{ testimonial.role }}</p>
+                  <p class="text-gray-900 text-sm font-medium">{{ testimonial.name }}</p>
+                  <p class="text-gray-500 text-xs">{{ testimonial.role }}</p>
                 </div>
               </div>
             </div>
@@ -97,56 +97,56 @@
   const testimonials1: Testimonial[] = [
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -157,70 +157,70 @@
   const testimonials2: Testimonial[] = [
     {
       id: 1,
-      content: "I tried the @nextrideng bus for the first time today, and it was so smooth",
+      content: "I tried the @Shuttlersng bus for the first time today, and it was so smooth",
       name: "Sophia Ezeh",
       role: "Frontend Developer",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I received a call from a gracious lady @nextrideng, offering assistance and guidance for my upcoming first ride with their service. It was such a warm gesture. Thank you!",
+      content: "I received a call from a gracious lady @Shuttlersng, offering assistance and guidance for my upcoming first ride with their service. It was such a warm gesture. Thank you!",
       name: "Love Ikhine",
       role: "Lawyer",
        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @nextrideng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered NextRide. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"

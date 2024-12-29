@@ -2,7 +2,8 @@
   <div>
    <main>
     <NuxtPage />
-    <CoreFooter />
+    <AppFooter />
+    <!-- <CoreFooter /> -->
    </main>
   </div>
 </template>

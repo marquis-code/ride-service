@@ -50,11 +50,11 @@
                   <h3 class="font-bold mb-3">Things to know</h3>
                   <ul class="space-y-2">
                     <li class="flex items-center">
-                        <svg viewBox="0 0 24 24" class="w-4"><use xlink:href="https://my.NextRide.co/_nuxt/sprite.a3bbdf6e.svg#pet"></use></svg>
+                        <svg viewBox="0 0 24 24" class="w-4"><use xlink:href="https://my.Shuttlers.co/_nuxt/sprite.a3bbdf6e.svg#pet"></use></svg>
                       <span class="text-sm">Pets are not allowed inside vehicle</span>
                     </li>
                     <li class="flex items-center">
-                        <svg viewBox="0 0 24 24" class="w-4"><use xlink:href="https://my.NextRide.co/_nuxt/sprite.a3bbdf6e.svg#smoking"></use></svg>
+                        <svg viewBox="0 0 24 24" class="w-4"><use xlink:href="https://my.Shuttlers.co/_nuxt/sprite.a3bbdf6e.svg#smoking"></use></svg>
                       <span class="text-sm">No smoking</span>
                     </li>
                   </ul>

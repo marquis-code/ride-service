@@ -22,12 +22,12 @@ export default defineNuxtConfig({
       enabled: true
     },
     meta: {
-      title: "Nextride",
+      title: "Shuttlers - Exprience a simpler, better way to commute.",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "Streamline your vehicle hire experience with our effortless booking process.",
+        "Exprience a simpler, better way to commute.",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",
@@ -69,21 +69,4 @@ export default defineNuxtConfig({
       },
     ],
   }
-  // modules: [
-  //   '@nuxtjs/pwa'
-  // ],
-  // pwa: {
-  //   manifest: {
-  //     name: 'My Awesome Nuxt 3 PWA',
-  //     short_name: 'Nuxt3PWA',
-  //     lang: 'en',
-  //     useWebmanifestExtension: false,
-  //     display: 'standalone',
-  //     theme_color: '#4DBA87',
-  //     background_color: '#000000'
-  //   },
-  //   workbox: {
-  //     // Workbox options for customizing the service worker
-  //   }
-  // }
 });

@@ -6,7 +6,7 @@
         <div class="space-y-8">
           <div>
             <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
-              STRESS-FREE TRAVEL, WHEREVER YOU GO. BOOK YOUR RIDE WITH NEXTRIDE SIMPLY ENJOY THE JOURNEY.
+              STRESS-FREE TRAVEL, WHEREVER YOU GO. BOOK YOUR RIDE WITH Shuttlers SIMPLY ENJOY THE JOURNEY.
             </h1>
             <p class="mt-6 text-gray-600 leading-relaxed">
               However you want to travel, the choice is yours - we have hundreds of vehicles and options for recurring transportation, micro-transit, or special days like weddings, sporting events, school trips and corporate events.

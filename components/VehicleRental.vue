@@ -70,7 +70,7 @@
   const vehicles = ref([
     {
       id: 1,
-      name: 'Nextride Black',
+      name: 'Shuttlers Black',
       description: 'Experience travel like never before with the Jet Moover. Equipped with WiFi connectivity, an array of games, and a captivating screen, it transforms every ride into an adventure.',
       price: 200000,
       seats: 14,

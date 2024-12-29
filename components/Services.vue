@@ -1,7 +1,7 @@
 <template>
   <main class="max-w-6xl mx-auto mt-32">
     <div class="pl-5">
-      <h3 data-aos="flip-left" class="text-3xl font-semibold">How will Nextride help you?</h3>
+      <h3 data-aos="flip-left" class="text-3xl font-semibold">How will Shuttlers help you?</h3>
       <p data-aos="flip-left" class="text-lg">
         We‘ve got you covered for all your personal and group transportation
         needs.

@@ -81,8 +81,8 @@
           <div>
             <h3 class="font-semibold mb-4">Policies</h3>
             <ul class="space-y-3">
-              <li><NuxtLink href="/terms" class="text-gray-400 hover:text-white">Terms of use</NuxtLink></li>
-              <li><NuxtLink href="/privacy-policy" class="text-gray-400 hover:text-white">Privacy Policy</NuxtLink></li>
+              <li><a href="https://www.freeprivacypolicy.com/live/a1dc564a-a3ad-4a1f-8169-894f91eab58d" class="text-gray-400 hover:text-white">Terms of use</a></li>
+              <li><a href="https://www.freeprivacypolicy.com/live/1a78f921-f078-45cc-ac85-907382cb8072" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
               <li><a href="#" class="text-gray-400 hover:text-white">Refund Policy</a></li>
               <li><a href="#" class="text-gray-400 hover:text-white">Behavior Policy</a></li>
               <li><a href="#" class="text-gray-400 hover:text-white">Charter terms</a></li>

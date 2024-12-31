@@ -1,8 +1,8 @@
 <template>
     <div class="w-full overflow-hidden bg-gray-25 py-32">
         <section class="pl-10 lg:pl-32">
-        <div data-aos="flip-left" class="inline-block px-4 py-2.5 mb-6 bg-gray-100 rounded-full">
-        <span class="text-green-500 font-medium">Testimonials</span>
+        <div data-aos="flip-left" class="inline-block px-4 py-2.5 mb-6 bg-[#1d4449] rounded-full">
+        <span class="text-[#c2f725] font-medium">Testimonials</span>
       </div>
       
       <h1 data-aos="fade-up" class="text-4xl font-medium text-gray-900 mb-4 -mt-2">
@@ -97,56 +97,56 @@
   const testimonials1: Testimonial[] = [
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -157,70 +157,70 @@
   const testimonials2: Testimonial[] = [
     {
       id: 1,
-      content: "I tried the @Shuttlersng bus for the first time today, and it was so smooth",
+      content: "I tried the @CoMilesng bus for the first time today, and it was so smooth",
       name: "Sophia Ezeh",
       role: "Frontend Developer",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I received a call from a gracious lady @Shuttlersng, offering assistance and guidance for my upcoming first ride with their service. It was such a warm gesture. Thank you!",
+      content: "I received a call from a gracious lady @CoMilesng, offering assistance and guidance for my upcoming first ride with their service. It was such a warm gesture. Thank you!",
       name: "Love Ikhine",
       role: "Lawyer",
        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 1,
-      content: "You all know you can use @Shuttlersng to move around, they are cheaper and more convenient.",
+      content: "You all know you can use @CoMilesng to move around, they are cheaper and more convenient.",
       name: "Enioluwa Adeoluwa",
       role: "Content Creator and EU Ambassador",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
     },
     {
       id: 2,
-      content: "I've been having a fantastic mainland-island commute since I discovered Shuttlers. God bless you for such great initiative.",
+      content: "I've been having a fantastic mainland-island commute since I discovered CoMiles. God bless you for such great initiative.",
       name: "Nego Amos",
       role: "General Manager of Marygallup Consultancy",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"

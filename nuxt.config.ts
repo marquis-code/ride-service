@@ -22,7 +22,7 @@ export default defineNuxtConfig({
       enabled: true
     },
     meta: {
-      title: "Shuttlers - Exprience a simpler, better way to commute.",
+      title: "CoMiles - Exprience a simpler, better way to commute.",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
       sizes: [64, 120, 144, 152, 192, 384, 512],
     },
     manifest: {
-      name: "Shuttlers - Exprience a simpler, better way to commute.",
+      name: "CoMiles - Exprience a simpler, better way to commute.",
       lang: "fa",
     },
   }

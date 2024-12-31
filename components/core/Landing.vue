@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
         </h1>
         
         <p class="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-          Shuttlers is your All-in-One Shared Transport Solution. Trusted by over 120 businesses and 135k passengers.
+          CoMiles is your All-in-One Shared Transport Solution. Trusted by over 120 businesses and 135k passengers.
         </p>
         
         <div class="mt-8 flex justify-center gap-4">
@@ -128,7 +128,7 @@ onBeforeUnmount(() => {
       <div class="">
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
           <p 
-            class="flip-text text-emerald-500 inline-block min-w-[180px] text-left"
+            class="flip-text text-[#1d4449] inline-block min-w-[180px] text-left"
             :class="{ 'flipping': isFlipping }"
           >
             {{ currentText }}
@@ -140,7 +140,7 @@ onBeforeUnmount(() => {
         </h1>
         
         <p class="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-          Shuttlers is your All-in-One Shared Transport Solution. Trusted by over 120 businesses and 135k passengers.
+          CoMiles is your All-in-One Shared Transport Solution. Trusted by over 120 businesses and 135k passengers.
         </p>
         
         <div class="mt-8 flex justify-start items-start gap-4">

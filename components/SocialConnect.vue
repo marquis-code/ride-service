@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto lg:flex justify-center items-center grid lg:grid-cols-2">
         <div>
             <div class="inline-block mb-8">
-          <span class="px-4 py-1 rounded-full bg-green-100 text-green-600 text-sm font-medium">
+          <span class="px-4 py-2 rounded-full bg-[#1d4449] text-[#c2f725] text-sm font-medium">
             Socials
           </span>
         </div>
@@ -26,10 +26,10 @@
               <div>
                 <h3 class="text-xl font-semibold mb-2">Follow us on Facebook</h3>
                 <p class="text-gray-600 mb-1">
-                  Get Shuttlers news, company information and resources
+                  Get CoMiles news, company information and resources
                 </p>
-                <a href="https://facebook.com/shuttlers_ng" class="text-green-600 hover:underline">
-                  @shuttlers_ng
+                <a href="https://facebook.com/CoMiles_ng" class="text-[#1d4449] hover:underline">
+                  @CoMiles_ng
                 </a>
               </div>
             </div>
@@ -44,10 +44,10 @@
               <div>
                 <h3 class="text-xl font-semibold mb-2">Follow us on X</h3>
                 <p class="text-gray-600 mb-1">
-                  Get Shuttlers news, company information and resources
+                  Get CoMiles news, company information and resources
                 </p>
-                <a href="https://x.com/shuttlers_ng" class="text-green-600 hover:underline">
-                  @shuttlers_ng
+                <a href="https://x.com/CoMiles_ng" class="text-[#1d4449] hover:underline">
+                  @CoMiles_ng
                 </a>
               </div>
             </div>
@@ -64,10 +64,10 @@
               <div>
                 <h3 class="text-xl font-semibold mb-2">Follow us on Instagram</h3>
                 <p class="text-gray-600 mb-1">
-                  Get Shuttlers news, company information and resources
+                  Get CoMiles news, company information and resources
                 </p>
-                <a href="https://instagram.com/shuttlers_ng" class="text-green-600 hover:underline">
-                  @shuttlers_ng
+                <a href="https://instagram.com/CoMiles_ng" class="text-[#1d4449] hover:underline">
+                  @CoMiles_ng
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@
                 <p class="text-gray-600 mb-1">
                   Speak with any of our customer support.
                 </p>
-                <a href="tel:02018891727" class="text-green-600 hover:underline">
+                <a href="tel:02018891727" class="text-[#1d4449] hover:underline">
                   02018891727
                 </a>
               </div>

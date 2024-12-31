@@ -1,13 +1,13 @@
 <!-- components/AppFooter.vue -->
 <template>
-    <footer class="bg-black text-white pt-20 pb-8 px-4 sm:px-6 lg:px-8">
+    <footer class="bg-[#1d4449] text-white pt-20 pb-8 px-4 sm:px-6 lg:px-8">
       <!-- Download Section -->
       <div class="max-w-7xl mx-auto mb-20">
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 class="text-3xl  font-bold mb-4">Available on web and mobile</h2>
             <p class="text-gray-400 mb-8 max-w-md">
-              Register to use shuttlers on web or click the links below to download the shuttlers mobile application.
+              Register to use CoMiles on web or click the links below to download the CoMiles mobile application.
             </p>
             <div class="flex flex-wrap gap-4">
               <a href="#" class="h-12">
@@ -21,7 +21,7 @@
           <div class="relative h-[400px] md:h-[500px]">
             <img 
               src="@/assets/img/device-mockup.png" 
-              alt="Shuttlers on devices" 
+              alt="CoMiles on devices" 
               class="absolute right-0 top-1/2 transform -translate-y-1/2 max-w-none w-auto h-72 object-contain"
             />
           </div>
@@ -36,7 +36,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
           <!-- Brand Column -->
           <div class="lg:col-span-1">
-            <img src="@/assets/icons/shuttlers-logo.svg" alt="Shuttlers" class="h-8 mb-4" />
+            <img src="@/assets/img/logo_main_white.png" alt="CoMiles" class="h-8 mb-4" />
             <p class="text-gray-400 mb-6">Scheduled Mass-Transit Solution</p>
             <div class="flex gap-4">
               <a href="#" class="text-gray-400 hover:text-white">
@@ -97,14 +97,14 @@
               <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
               <li><a href="#" class="text-gray-400 hover:text-white">FAQs</a></li>
               <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white">Shuttlers community</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">CoMiles community</a></li>
             </ul>
           </div>
         </div>
   
         <!-- Copyright -->
         <div class="text-gray-400 text-sm">
-          © {{ new Date().getFullYear() }} Shuttlers Metropolitan Mobility. All rights reserved.
+          © {{ new Date().getFullYear() }} CoMiles Metropolitan Mobility. All rights reserved.
         </div>
       </div>
     </footer>

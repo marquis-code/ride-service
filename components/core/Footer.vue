@@ -116,7 +116,7 @@
           </svg>
         </a>
       </div>
-      <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; 2024 Shuttlers, Inc. All rights reserved.</p>
+      <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; 2024 CoMiles, Inc. All rights reserved.</p>
     </div>
   </div>
 </footer>

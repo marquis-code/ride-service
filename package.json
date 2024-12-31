@@ -21,6 +21,7 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
     "@luxdamore/vue-cursor-fx": "^1.6.2",
+    "@nuxt/nitro": "^0.10.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@vueuse/core": "^12.2.0",

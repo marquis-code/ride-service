@@ -34,7 +34,7 @@
             <img src="@/assets/icons/green-arrow.svg" class="h-3 w-3" />
          </div>
           <p class="text-gray-500 font-light text-lg">
-            {{ `${item.description.length > 20 ? `${item.description.slice(0, 80)}...` : item.description }` ?? 'Nil' }}
+            {{ `${item.description.length > 20 ? `${item.description.slice(0, 80)}...` : item.description }`}}
           </p>
         </div>
       </div>
